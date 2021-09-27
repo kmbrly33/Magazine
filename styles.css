@@ -1,0 +1,205 @@
+
+html, body {
+    background: white;
+    font-family: "Nunito", "san-serif";
+    overflow-x: hidden;
+     scroll-behavior: smooth;
+    
+        margin:0px;
+        padding:0px;
+    }
+
+
+
+.blurb h2{
+    color: black;
+    font-weight: 100;
+    font-size: 2.5rem;
+   
+}
+.blurb p{
+    color: black;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+    padding-top: 1.5rem;
+
+}
+.content {
+    margin-top: 60px; 
+    margin-bottom: 20px;
+    
+   
+}
+.content h2 {
+    padding-top: 0.5rem;
+    margin-top: 3.5rem;
+    border-bottom: black 1px solid;
+} 
+
+#subscribe h2.sub {
+    text-align: center;
+}
+
+
+#navbar {
+    font-size: 1.4rem;
+    font-weight: 200; 
+   
+}
+
+
+#navbar .nav-link{
+    color:  black;   
+    padding-right: 1.5rem;
+}   
+
+#navbar .nav-link:hover {
+    color: #eeba0b;  
+    font-size: 1.5rem;  
+}
+
+#navbar .navbar-brand {
+    color: #fe6d73;
+    font-size: 2.2rem; 
+    font-weight: 200;
+  
+}
+ 
+
+#headingGroup span {
+    color: #eeba0b;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 3.5rem;
+}
+
+h2 span {
+    color: #fe6d73;
+}
+
+#navbar .nav-link.lighten {
+    color: white;
+}
+
+.navbar.scrolled {
+    background-color: black;
+    opacity: 0.8;
+        display: flex;
+        width: 100%;
+        top: 0px;
+        padding: 0 30px;
+        transition: 0.5s;
+        font-size: 1.3rem;
+      
+}
+
+#navbar.scrolled .nav-link:hover {
+    color: #eeba0b;  
+    font-size: 1.5rem;  }
+  
+.icon {
+    height: 105px;
+    width: 105px;
+}
+
+
+.fa {
+  
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+
+  .fa:hover {
+    color: #eeba0b;
+  }
+  
+ 
+  .fa-facebook {
+    color: white;
+    align-items: right;
+  }
+
+  .fa-pinterest {
+    color: white; 
+    margin-right: 10px;
+  }
+  
+
+  .fa-twitter {
+  color: white;
+  }
+
+  .fa-instagram {
+      color: white;
+     
+  }
+
+  nav .social {
+      text-align: right;
+  }
+
+  #main-footer {
+      background-color: #fff;
+      color: #000;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem 0;
+      margin-top: 0;
+  }
+
+  #main-footer .fa {
+      color: #000;
+  }
+
+
+
+@media (max-width: 1023px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    
+    #navbar .nav-link {
+        font-size: 1.4rem;
+        color: #fff;  
+    }
+   
+    #navLinks {
+        padding-top: 0.5rem;
+    }
+    
+  .content h2 {
+    margin-top: 1.5rem;
+
+}
+.content img {
+    margin-top: 2.5rem;
+}
+
+}
+
+@media (max-width: 767px) {
+    #navbar .social {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 900px), 
+
+(width: 1023px) and (height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait)  {
+ #navbar.nav-link { 
+        color: #000 !important;
+    }
+    #navbar .social {
+display: visible;
+}
+} 
+   
